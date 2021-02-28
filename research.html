@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <title>Research</title>
-  <<meta> charset="utf-8">
   <title>Bootstrap Website</title>
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,23 +16,27 @@
 </head>
 <body>
   <!-- NAVIGATION -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand" href="#" style="margin-left:20px;">Henry Redondo Gómez</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Henry Redondo Gomez</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+      <!-- ml-auto still works just fine-->
+      <div class="navbar-nav ml-auto">
         <a class="nav-item nav-link" href="index.html">Home</a>
         <a class="nav-item nav-link" href="research.html">Research</a>
         <a class="nav-item nav-link" href="cv.html">CV</a>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
+
   <section id="research">
     <div class="container">
       <div class="row m-5">
-        <div class="col-md-5">
+        <div class="col-md-6">
           <div class="row mt-5">
             <div class="info-left">
               <!-- Paper 1 -->
@@ -42,10 +45,22 @@
           </div>
           <div class="row mt-2">
             <h5>Labor market adjustment after a sectoral shock: worker level evidence from Spain</h5>
-            <p> abstract Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p align="justify"> This paper analyzes the impact of the crisis on workers of the Spanish construction
+sector, their employment and earning trajectories from 2007 through 2013. The
+identification exploits the variation of the contraction size among Spanish provinces.
+This article manifests the importance of local sector composition and the way it provides
+better opportunities thus reducing the shock’s impact. The results reveal that
+individuals initially employed in the construction sector experienced a large impact
+on their cumulative wages during Spain’s economic downturn. The evidence suggests
+that the impact was a consequence of longer unemployment and non-employment
+spells rather than a decrease in wages. As per the earning losses, they are larger
+for workers in provinces where sectoral composition provides fewer opportunities of
+changing sectors. Furthermore, the outside option of workers varies between worker
+characteristics and region. These findings support that short term labour market
+adjustment is intersectoral rather than inter-regional..</p>
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-6">
           <div class="row mt-5">
             <div class="info-left">
               <!-- Paper 1 -->
@@ -54,7 +69,19 @@
           </div>
           <div class="row mt-2">
             <h5>Trends in inequality: A national and disaggregated earnings inequality study for Spain, 1980-2016</h5>
-            <p> abstract Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p align="justify"> This article studies the evolution of Spain’s wage inequality between 1995 and
+2017, emphasizing differences in trends at cohorts, sectors, and regional levels
+and using data of Spain’s Continues Sample of Working Histories (Muestra
+Continua de Vidas Laborales MCVL). This dataset allows studying how broad
+changes in inequality are decomposed at a disaggregated level. The results suggest
+that wage inequality in Spain is strongly countercyclical. After the Great
+Recession, the earnings distribution became even more unequal, this is appreciated
+over all the autonomous communities, especially Andalusia, where the
+construction sector was relatively more important, in opposition the North of
+Spain has a higher percentage of the highly educated workers, and less dependent
+on the construction sector before the crisis. Possible explanations for the documented
+evolution in earnings inequality are the evolution of the unemployment
+rate and the development of the college wage premium.</p>
           </div>
         </div>
       </div>
@@ -64,5 +91,8 @@
 
   <!-- Bootstrap4 scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+          crossorigin="anonymous"></script>
 </body>
 </html>

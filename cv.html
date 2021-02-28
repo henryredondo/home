@@ -15,21 +15,22 @@
   </head>
   <body>
     <!-- NAVIGATION -->
-    <div class="container m-3">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#" style="margin-left:20px;" >Henry Redondo Gómez</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">Home</a>
-            <a class="nav-item nav-link" href="research.html">Research</a>
-            <a class="nav-item nav-link" href="cv.html">CV</a>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Henry Redondo Gomez</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <!-- ml-auto still works just fine-->
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="index.html">Home</a>
+          <a class="nav-item nav-link" href="research.html">Research</a>
+          <a class="nav-item nav-link" href="cv.html">CV</a>
         </div>
-      </nav>
+      </div>
     </div>
+  </nav>
 
     <section id="cv">
       <div class="container m-5">
@@ -51,5 +52,8 @@
         </div>
       </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"></script>
   </body>
 </html>
