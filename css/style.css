@@ -1,17 +1,22 @@
-body{
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 16px;
+html,body{
+  width:100%;
+  height:100%;
   margin:0;
   padding:0;
-  height:100%;
+  font-family: "San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-size: 14px;
+}
+
+body{
+  position:relative;
+}
+
+main{
+  margin: auto;
 }
 
 .articles{
   text-align: justify;
-}
-
-main{
-  margin-top: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -37,8 +42,9 @@ main{
 }
 
 footer{
-  position:absolute;
   bottom:0;
+  left:0;
   width:100%;
   height: auto;
+  position: fixed;
 }
