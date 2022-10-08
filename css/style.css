@@ -52,7 +52,7 @@ main{
 
 .navbar-logo{
   display: block;
-  color: #7a8288;
+  color:  #192d50;
   padding: 0.5rem 0;
   white-space: nowrap;
   font-weight: bold;
@@ -61,17 +61,17 @@ main{
 }
 
 a{
-  color: #6f7274;
+  color: #192d50; 
 }
 
 a:hover{
-  color: black;
+  color: #6f7274;
 }
 
 footer{
   position: relative;
   height: 82px;
-  background-color: DarkSalmon;
+  background-color: #192d50;
   color: white;
   margin-top: -82px;
   clear:both;
