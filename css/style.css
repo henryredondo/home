@@ -71,6 +71,8 @@ a:hover{
 footer{
   position: relative;
   height: 82px;
+  background-color: DarkSalmon;
+  color: white;
   margin-top: -82px;
   clear:both;
 }
