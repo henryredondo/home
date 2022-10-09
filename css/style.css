@@ -61,7 +61,11 @@ main{
 }
 
 a{
-  color: #192d50; 
+  color: #192d50;
+}
+
+b{
+  color: #192d50;
 }
 
 a:hover{
